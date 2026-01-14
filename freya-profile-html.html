@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="robots" content="noindex">
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title], [title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:90,
+tip_fade_speed:600,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+<script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+  $(".one").click(function(){
+    $(".a").toggle();
+    $(".b,.c,.d,.e").hide();
+  });
+  
+  $(".two").click(function(){
+    $(".b").toggle();
+    $(".a,.c,.d,.e").hide();
+  });
+  
+  $(".three").click(function(){
+    $(".c").toggle();
+    $(".a,.b,.d,.e").hide();
+  });
+  
+  $(".four").click(function(){
+    $(".d").toggle();
+    $(".a,.b,.c,.e").hide();
+  });
+  
+  $(".five").click(function(){
+    $(".e").toggle();
+    $(".a,.b,.c,.d").hide();
+  });
+  
+});
+</script>
+
+<script> 
+$(document).ready(function() { 
+$('a.poplight[href^=#]').click(function() { 
+var popID = $(this).attr('rel');
+var popURL = $(this).attr('href');
+var query= popURL.split('?'); 
+var dim= query[1].split('&'); 
+var popWidth = dim[0].split('=')[1];
+$('#' + popID).fadeIn().css({ 'width': Number( popWidth ) }).prepend('<a href="/" class="close"><img src="/images/close.png" class="btn_close" alt="close" style="height: 16px; width: 16px;"></a>'); 
+var popMargTop = ($('#' + popID).height() + 90) / 2; 
+var popMargLeft = ($('#' + popID).width() + 90) / 2;
+$('#' + popID).css({ 
+'margin-top' : -popMargTop,
+'margin-left' : -popMargLeft 
+}); 
+$('body').append('<div id="fade"></div>');
+$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn();
+return false; 
+}); 
+$('a.close, #fade').live('click', function() { 
+$('#fade , .popup_block').fadeOut(function() { 
+$('#fade, a.close').remove();
+}); 
+return false; 
+}); 
+}); 
+</script>
+
+</head>
+<body>
+<center>
+<table width="700" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" align="center">
+<img height="350" src="http://i.imgur.com/TnV0VxN.png" style="background-image: url(http://i.imgur.com/breR4aU.png); border-radius: 5px; padding: 5px; box-shadow:0px 0px 0px #949494;" width="225" title="played by dianna agron. open to customs, threading and random scenes. writing style is third person/storybook, always open to plotting!">
+</td>
+
+<td valign="top" width="450">
+<div id="title">freya harmon</div>
+<div id="line" style="background-image: url(http://i.imgur.com/breR4aU.png); border-radius: 0px 5px 5px 0px; color: #7f7f7f; font-family: abel; font-size: 11px; font-weight:bold; letter-spacing: 2px; line-height: 18px; padding-left: 15px; text-align: left; text-shadow: 0px 0px 1px #d7d7d7; text-transform: uppercase; border-image: repeating-linear-gradient(to right, #EBB9CD, #F2E6EB) 2; border-left: 0px; border-right: 0px; border-bottom: 0px; border-top: 1px solid; box-shadow:0px 0px 0px #949494;">
+<a class="one" href="#">basics</a> &bull; <a class="two" href="#">biography</a> &bull; <a class="three" href="#">comicverse</a> &bull; <a href="http://burglary.insanejournal.com/977.html" target="_blank">contact</a>
+</div>
+
+<div class="a">
+<default>
+<facts>comicverse name</facts>
+<facts1>Felicia Hardy</facts1>
+<facts>birthdate</facts>
+<facts1>March 13, 1989 (27)</facts1>
+<facts>hometown</facts>
+<facts1>New York City, New York</facts1>
+<facts>current residence</facts>
+<facts1>Boston, Massachusetts</facts1>
+<facts>occupation</facts>
+<facts1>Prinicipal Dancer @ Boston Ballet</facts1>
+<facts>relationship status</facts>
+<facts1>Single</facts1>
+<facts>family</facts>
+<facts1><a title="58 years old, career criminal (father)">michael harmon</a> & <a title="55 years old, paralegal (mother)">laura daniels</a></facts1>
+</default>
+</div>
+
+<div class="b">
+<default>
+under revision!
+</default>
+</div>
+
+<div class="c">
+<default>
+under revision!
+</default>
+</div>
+
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
