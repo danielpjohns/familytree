@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: #EBB9CD;
+    color: #7fe048;
     text-decoration: none;
     -webkit-transition: all 1.5s ease;
     -moz-transition: all 1.5s ease;
@@ -39,7 +39,7 @@ html, body, a, a:hover {
 .a {
     background-image: url(http://i.imgur.com/breR4aU.png);
     border-radius: 5px;
-    box-shadow: 0px 0px 0px 0px #a3a3a3;
+    box-shadow: 0px 0px 0px 0px #7fe048;
     height: 261px;
     margin-bottom: 25px;
     margin-left: 10px;
@@ -55,7 +55,7 @@ html, body, a, a:hover {
 .b, .c, .d, .e {
     background-image: url(http://i.imgur.com/breR4aU.png);
     border-radius: 5px;
-    box-shadow: 0px 0px 0px 0px #a3a3a3;
+    box-shadow: 0px 0px 0px 0px #7fe048;
     display: none;
     height: 261px;
     margin-bottom: 25px;
@@ -82,9 +82,9 @@ default {
 }
 
 facts {
-    background-color: #F7EAEF;
+    background-color: #7fe048;
     border-bottom: 0px;
-    border-image: repeating-linear-gradient(to right, #EBB9CD, #F2E6EB) 2;
+    border-image: repeating-linear-gradient(to right, #7fe048, #7fe048) 2;
     border-left: 0px;
     border-right: 0px;
     border-top: 1px solid;
@@ -109,12 +109,12 @@ facts1 {
     line-height: 30px;
     margin-bottom: -5px;
     margin-top: 1px;
-    text-shadow: 0px 0px 0px #9F90BD;
+    text-shadow: 0px 0px 0px #7fe048;
     text-transform: lowercase;
 }
 
 facts2 {
-    color: #131346;
+    color: #7fe048;
     display: block;
     font-family: abel;
     font-size: 17px;
@@ -135,7 +135,7 @@ discog {
     line-height: 30px;
     margin-bottom: -10px;
     margin-top: 1px;
-    text-shadow: 0px 0px 0px #9F90BD;
+    text-shadow: 0px 0px 0px #7fe048;
     text-transform: lowercase;
 }
 
@@ -182,14 +182,14 @@ discog2 {
 }
 
 #title {
-    color: #fafafa;
+    color: #7fe048;
     font-family: burglary;
     font-size: 55px;
     letter-spacing: 0px;
     line-height: 50px;
     margin-left: 10px;
     text-align: justify;
-    text-shadow: 2px 2px 0px #EBB9CD, -2px -2px 0px #7fe048;
+    text-shadow: 2px 2px 0px #7fe048, -2px -2px 0px #7fe048;
     text-transform: none;
     margin-top: 5px;
     margin-bottom: 10px;
