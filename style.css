@@ -84,7 +84,7 @@ default {
 facts {
     background-color: #7fe048;
     border-bottom: 0px;
-    border-image: repeating-linear-gradient(to right, #7fe048, #7fe048) 2;
+    border-image: repeating-linear-gradient(to right, #7fe048, #5DC833) 2;
     border-left: 0px;
     border-right: 0px;
     border-top: 1px solid;
