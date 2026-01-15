@@ -77,7 +77,7 @@ default {
     letter-spacing: 0px;
     line-height: 12px;
     text-align: justify;
-    text-shadow: 0px 0px 0px #7f7f7f;
+    text-shadow: 0px 0px 0px #7fe048;
     text-transform: none;
 }
 
@@ -189,7 +189,7 @@ discog2 {
     line-height: 50px;
     margin-left: 10px;
     text-align: justify;
-    text-shadow: 2px 2px 0px #EBB9CD, -2px -2px 0px #F2E6EB;
+    text-shadow: 2px 2px 0px #EBB9CD, -2px -2px 0px #7fe048;
     text-transform: none;
     margin-top: 5px;
     margin-bottom: 10px;
